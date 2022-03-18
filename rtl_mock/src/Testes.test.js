@@ -22,6 +22,7 @@ describe('Aprendendo sobre mocks', () => {
     expect(divisivelPorDois()).toBe(false);
   });
 
+
   test('Testa se a funcao foi chamada', () => {
     divisivelPorDois = jest.fn();
 
